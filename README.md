@@ -6,6 +6,8 @@ A simple 10-question trivia game about K-pop boy group SEVENTEEN, built with HTM
 
 Can be played by clicking on answer choices with your mouse. Every correct answer earns you 1 point. However, there is a 15-second time limit for each question.
 
+The quiz may be taken [here](https://lilysashad.github.io/SEVENTEEN-Quiz/)
+
 Time spent: **5** hours spent in total
 
 # Attributes
