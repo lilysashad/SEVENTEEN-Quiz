@@ -1,6 +1,6 @@
 # SEVENTEEN-Quiz
 
-<img src='/images/seventeen_pic.jpeg' title='Group photo of SEVENTEEN' width='30%' alt='Group photo of 13 East-Asian boys that comprise of Korean boy group Seventeen' />
+<img src='/images/seventeen_pic.jpeg' title='Group photo of SEVENTEEN' width='60%' alt='Group photo of 13 East-Asian boys that comprise of Korean boy group Seventeen' />
 
 A simple 10-question trivia game about K-pop boy group SEVENTEEN, built with HTML, CSS, and Javascript.
 
