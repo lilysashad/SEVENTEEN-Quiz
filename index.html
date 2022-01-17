@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width-device-width, initial-scale=1.0">
+    <title>SEVENTEEN Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e401d8b349.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="start_btn"><button>Start</button></div>
+
+    <div class="info_box">
+        <div class="info_title">
+            <span>Rules</span>
+        </div>
+
+        <div class="info_list">
+            <div class="info">1. You will have <span>15 seconds</span> to answer each question.</div>
+            <div class="info">2. Once you click an answer, you can not change it.</div>
+            <div class="info">3. You can not exit the quiz while playing.</div>
+            <div class="info">4. You will earn 1 point for each question you get correct.</div>
+        </div>
+
+        <div class="buttons">
+            <button class="quit">Exit</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+        <!-- Quiz Box -->
+        <div class="quiz_box">
+            <header>
+                <div class="title">SEVENTEEN Quiz App</div>
+                <div class="timer">
+                    <div class="timer_text">Time remaining:</div>
+                    <div class="timer_sec"></div>
+                </div>
+                <div class="time_line"></div>
+            </header>
+            <section>
+                <div class="que_text">
+                    <span><!-- How many members are in SEVENTEEN? --></span>
+                </div>
+
+                <div class="option_list">
+                    <!--<<div class="option">
+                        <span>13</span>
+                        <div class="icon check"><i class="fas fa-check"></i></div>
+                    </div>
+
+                    <div class="option">
+                        <span>17</span>
+                        <div class="icon x"><i class="fas fa-times"></i></div>
+                    </div>
+
+                    <div class="option">
+                        <span>10</span>
+                        <div class="icon x"><i class="fas fa-times"></i></div>>
+                    </div> -->
+                </div>
+            </section>
+            <footer>
+                <div class="total_que">
+                    <!-- <span><p>2</p>of<p>10</p>questions</span> -->
+                </div>
+
+                <button class="next_btn">Next</button>
+            </footer> 
+        </div>
+
+        <!-- Result Box -->
+        <div class="result_box">
+            <div class="complete_text">You've completed the SEVENTEEN quiz!</div>
+            <div class="complete_pic">
+                <img src="images/seventeen_pic.jpeg" alt="A group of 13 Korean, Chinese, and American boys that make up the Korean music group Seventeen">
+            </div>
+            <div class="score_text">
+                <!-- <span>You scored <p>2</p> out of <p>10</p> questions correct</span> -->
+            </div>
+            <div class="buttons">
+                <button class="restart">Replay</button>
+                <button class="quit">Quit</button>
+            </div>
+        </div>
+
+        <script src="js/questions.js"></script>
+        <script src="js/script.js"></script>
+</body>
+</html>
